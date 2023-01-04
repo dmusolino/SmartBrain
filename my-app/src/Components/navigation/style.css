@@ -1,0 +1,22 @@
+
+
+ .navbar {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .link {
+    color: #000000; /* black */
+    font-size: 1.5rem; /* 3em */
+    padding: 48px; /* pa3 */
+    cursor: pointer; /* pointer */
+    text-decoration: underline;
+    opacity: 1;
+    transition: opacity 0.15s ease-in;
+  }
+  
+  .link:hover {
+    color: #606060; /* grey */
+    opacity: 0.5;
+  }
+  

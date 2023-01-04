@@ -1,21 +1,14 @@
 import React from "react";
-import { styles } from "./style";
+import './style.css'
 
-
-
-
-// const navbarStyles = {
-//     display: 'flex',
-//     justifyContent: 'flex-end',
-//   };
 
 
 
 const Navigation = () => {
 
 return (
-    <nav style={styles.navbar}>
-        <p>Sign Out</p>
+    <nav className="navbar">
+        <p className="link" >Sign Out</p>
     </nav>
 )
 
